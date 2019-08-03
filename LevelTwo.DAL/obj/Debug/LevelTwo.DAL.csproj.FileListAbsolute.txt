@@ -1,0 +1,12 @@
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\bin\Debug\LevelTwo.DAL.dll.config
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\bin\Debug\LevelTwo.DAL.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\bin\Debug\LevelTwo.DAL.pdb
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\obj\Debug\LevelTwo.DAL.csprojAssemblyReference.cache
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\obj\Debug\LevelTwo.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\obj\Debug\LevelTwo.DAL.csproj.CopyComplete
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\obj\Debug\LevelTwo.DAL.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.DAL\obj\Debug\LevelTwo.DAL.pdb

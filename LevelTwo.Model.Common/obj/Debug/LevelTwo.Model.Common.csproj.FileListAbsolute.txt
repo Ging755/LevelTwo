@@ -1,0 +1,6 @@
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Model.Common\bin\Debug\LevelTwo.Model.Common.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Model.Common\bin\Debug\LevelTwo.Model.Common.pdb
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Model.Common\obj\Debug\LevelTwo.Model.Common.csprojAssemblyReference.cache
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Model.Common\obj\Debug\LevelTwo.Model.Common.csproj.CoreCompileInputs.cache
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Model.Common\obj\Debug\LevelTwo.Model.Common.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Model.Common\obj\Debug\LevelTwo.Model.Common.pdb
