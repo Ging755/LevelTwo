@@ -62,19 +62,21 @@ namespace LevelTwo.Service
             }
             else
             {
-                item.ImagePath = "defaultItem.png";
+                item.ImagePath = "~/Images/defaultItem.png";
             }
             return item;
         }
 
         public void DeleteImage(IItem item)
         {
-            var path = System.Web.HttpContext.Current.Request.MapPath("~/Images/" + item.ImagePath);
-            if (System.IO.File.Exists(path))
+            if(item.ImagePath != "~/Images/defaultItem.png")
             {
-                System.IO.File.Delete(path);
+                var path = System.Web.HttpContext.Current.Request.MapPath("~/Images/" + item.ImagePath);
+                if (System.IO.File.Exists(path))
+                {
+                    System.IO.File.Delete(path);
+                }
             }
         }
-
     }
 }

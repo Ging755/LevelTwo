@@ -38,6 +38,11 @@ namespace LevelTwo.Repository
             return AutoMapper.Mapper.Map<ICategory>(await repo.GetAsync(id));
         }
 
+        public async Task<IEnumerable<ICategory>> GetListAsync()
+        {
+            return (AutoMapper.Mapper.Map<IEnumerable<ICategory>>(repo.GetListAsync().ToList()));
+        }
+
         public async Task<IPagedList<ICategory>> GetListAsync(int? page, string search)
         {
             var categories = repo.GetListAsync().AsQueryable();

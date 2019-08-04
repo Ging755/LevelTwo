@@ -39,6 +39,11 @@ namespace LevelTwo.Service
             return await repo.GetAsync(id);
         }
 
+        public async Task<IEnumerable<ICategory>> GetListAsync()
+        {
+            return await repo.GetListAsync();
+        }
+
         public async Task<IPagedList<ICategory>> GetListAsync(int? page, string search)
         {
             return await repo.GetListAsync(page, search);

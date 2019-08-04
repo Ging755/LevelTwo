@@ -12,6 +12,8 @@ namespace LevelTwo.Service.Common
     {
         Task<ICategory> GetAsync(int id);
 
+        Task<IEnumerable<ICategory>> GetListAsync();
+
         Task<IPagedList<ICategory>> GetListAsync(int? page, string search);
 
         Task AddAsync(ICategory entity);
