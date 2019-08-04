@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace LevelTwo.Service.Common
 {
@@ -14,10 +15,10 @@ namespace LevelTwo.Service.Common
 
         Task<IPagedList<IItem>> GetListAsync(int? page, string search, string priceorder, string discount);
 
-        Task AddAsync(IItem entity);
+        Task AddAsync(IItem entity, HttpPostedFileBase image);
 
         Task DeleteAsync(IItem entity);
 
-        Task EditAsync(IItem entity);
+        Task EditAsync(IItem entity, HttpPostedFileBase image);
     }
 }
