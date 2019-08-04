@@ -41,7 +41,7 @@ namespace LevelTwo.Repository
 
         public async Task<IPagedList<IItem>> GetListAsync(int? page, string search, string priceorder, string discount)
         {
-            var items = AutoMapper.Mapper.Map<IQueryable<IItem>>(repo.GetListAsync().AsQueryable());
+            var items = repo.GetListAsync().AsQueryable();
             IPagedList<IItem> model;
             if (!string.IsNullOrEmpty(search))
             {
@@ -69,16 +69,16 @@ namespace LevelTwo.Repository
                         items = items.OrderByDescending(x => x.Price).AsQueryable();
                         break;
                     default:
-                        model = items.OrderByDescending(x => x.Id).ToPagedList((int)page, 3);
+                        model = AutoMapper.Mapper.Map<IEnumerable<IItem>>(items).OrderByDescending(x => x.Id).ToPagedList((int)page, 3);
                         break;
                 }
-                model = items.ToPagedList((int)page, 6);
+                model = AutoMapper.Mapper.Map<IEnumerable<IItem>>(items).ToPagedList((int)page, 6);
             }
             else
             {
-                model = items.OrderByDescending(x => x.Id).ToPagedList((int)page, 3);
+                model = AutoMapper.Mapper.Map<IEnumerable<IItem>>(items).OrderByDescending(x => x.Id).ToPagedList((int)page, 3);
             }
-            return (new StaticPagedList<IItem>(model, model.GetMetaData()));
+            return model;
         }
     }
 }

@@ -23,16 +23,20 @@ namespace LevelTwo.Service
 
         public async Task AddAsync(IItem entity, HttpPostedFileBase image)
         {
+            InsertImage(entity, image);
             await repo.AddAsync(entity);
         }
 
         public async Task DeleteAsync(IItem entity)
         {
+            DeleteImage(entity);
             await repo.DeleteAsync(entity);
         }
 
         public async Task EditAsync(IItem entity, HttpPostedFileBase image)
         {
+            InsertImage(entity, image);
+            DeleteImage(entity);
             await repo.EditAsync(entity);
         }
 

@@ -43,7 +43,7 @@ namespace LevelTwo.Repository
             var categories = repo.GetListAsync().AsQueryable();
             if (!string.IsNullOrEmpty(search))
             {
-                categories = categories.Where(x => x.Name.ToUpper() == search.ToUpper()).AsQueryable();
+                categories = categories.Where(x => x.Name.ToUpper().Contains(search.ToUpper())).AsQueryable();
             }
             var categoriespaged = AutoMapper.Mapper.Map<IEnumerable<ICategory>>(categories).OrderBy(x => x.Id).ToPagedList((int)page, 3);
             return (categoriespaged);
