@@ -17,6 +17,6 @@ namespace LevelTwo.Model.Common
         string RecipientPhone { get; set; }
         string OrderReciveTime { get; set; }
         bool OrderSent { get; set; }
-        ICollection<IItem> OrderedItems { get; set; }
+        ICollection<int> OrderedItems { get; set; }
     }
 }

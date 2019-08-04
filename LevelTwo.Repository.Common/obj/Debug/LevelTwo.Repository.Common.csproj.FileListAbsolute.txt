@@ -4,3 +4,13 @@ C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\obj\Debug\Le
 C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\obj\Debug\LevelTwo.Repository.Common.csproj.CoreCompileInputs.cache
 C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\obj\Debug\LevelTwo.Repository.Common.dll
 C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\obj\Debug\LevelTwo.Repository.Common.pdb
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\bin\Debug\LevelTwo.Repository.Common.dll.config
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\bin\Debug\EntityFramework.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\bin\Debug\LevelTwo.Model.Common.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\bin\Debug\PagedList.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\bin\Debug\LevelTwo.Model.Common.pdb
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\bin\Debug\EntityFramework.xml
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\bin\Debug\PagedList.xml
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Repository.Common\obj\Debug\LevelTwo.Repository.Common.csproj.CopyComplete

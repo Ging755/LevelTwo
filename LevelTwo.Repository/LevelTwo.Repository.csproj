@@ -65,7 +65,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoMapperProfile.cs" />
     <Compile Include="CategoryRepository.cs" />
+    <Compile Include="DImodule.cs" />
     <Compile Include="GenericRepository.cs" />
     <Compile Include="ItemRepository.cs" />
     <Compile Include="OrderRepository.cs" />
@@ -85,6 +87,10 @@
     <ProjectReference Include="..\LevelTwo.Model.Common\LevelTwo.Model.Common.csproj">
       <Project>{8BAEB54A-F175-4D7E-A0BC-57B0AFE94E84}</Project>
       <Name>LevelTwo.Model.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LevelTwo.Model\LevelTwo.Model.csproj">
+      <Project>{4150DF90-0C3E-4885-AE96-5D7B36694B70}</Project>
+      <Name>LevelTwo.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\LevelTwo.Repository.Common\LevelTwo.Repository.Common.csproj">
       <Project>{86FF3A4C-A4E4-4464-B25D-453B4BBCEFEA}</Project>

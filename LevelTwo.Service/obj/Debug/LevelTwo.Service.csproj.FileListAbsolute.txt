@@ -4,3 +4,17 @@ C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\obj\Debug\LevelTwo.Ser
 C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\obj\Debug\LevelTwo.Service.csproj.CoreCompileInputs.cache
 C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\obj\Debug\LevelTwo.Service.dll
 C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\obj\Debug\LevelTwo.Service.pdb
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\LevelTwo.Model.Common.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\LevelTwo.Repository.Common.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\LevelTwo.Service.Common.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\Ninject.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\PagedList.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\EntityFramework.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\LevelTwo.Model.Common.pdb
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\LevelTwo.Repository.Common.pdb
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\LevelTwo.Repository.Common.dll.config
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\LevelTwo.Service.Common.pdb
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\Ninject.xml
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\PagedList.xml
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\bin\Debug\EntityFramework.xml
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service\obj\Debug\LevelTwo.Service.csproj.CopyComplete

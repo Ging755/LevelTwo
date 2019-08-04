@@ -40,12 +40,12 @@ namespace LevelTwo.Repository
 
         public async Task<IPagedList<ICategory>> GetListAsync(int? page, string search)
         {
-            var categories = AutoMapper.Mapper.Map<IQueryable<ICategory>>(repo.GetListAsync().AsQueryable());
+            var categories = repo.GetListAsync().AsQueryable();
             if (!string.IsNullOrEmpty(search))
             {
                 categories = categories.Where(x => x.Name.ToUpper() == search.ToUpper()).AsQueryable();
             }
-            var categoriespaged = categories.OrderBy(x => x.Id).ToPagedList((int)page, 3);
+            var categoriespaged = AutoMapper.Mapper.Map<IEnumerable<ICategory>>(categories).OrderBy(x => x.Id).ToPagedList((int)page, 3);
             return (categoriespaged);
         }
     }

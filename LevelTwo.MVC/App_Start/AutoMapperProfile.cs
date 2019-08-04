@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using LevelTwo.Model.Common;
 using LevelTwo.MVC.Models;
+using PagedList;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace LevelTwo.MVC.App_Start
         public AutoMapperProfile()
         {
             CreateMap<ICategory, CategoryVM>().ReverseMap();
+            CreateMap<IPagedList<ICategory>, IPagedList<CategoryVM>>().ReverseMap();
             CreateMap<IItem, ItemVM>().ReverseMap();
             CreateMap<IOrder, OrderVM>().ReverseMap();
         }

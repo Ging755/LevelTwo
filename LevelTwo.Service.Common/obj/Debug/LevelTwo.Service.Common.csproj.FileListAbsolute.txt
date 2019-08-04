@@ -4,3 +4,8 @@ C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service.Common\obj\Debug\Level
 C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service.Common\obj\Debug\LevelTwo.Service.Common.csproj.CoreCompileInputs.cache
 C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service.Common\obj\Debug\LevelTwo.Service.Common.dll
 C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service.Common\obj\Debug\LevelTwo.Service.Common.pdb
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service.Common\bin\Debug\LevelTwo.Model.Common.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service.Common\bin\Debug\PagedList.dll
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service.Common\bin\Debug\LevelTwo.Model.Common.pdb
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service.Common\bin\Debug\PagedList.xml
+C:\Users\Denis\source\repos\LevelTwoRepo\LevelTwo.Service.Common\obj\Debug\LevelTwo.Service.Common.csproj.CopyComplete

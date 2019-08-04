@@ -26,8 +26,9 @@ namespace LevelTwo.MVC.Controllers
         {
             page = page ?? 1;
             ViewBag.search = search;
-            var model = AutoMapper.Mapper.Map<IPagedList<CategoryVM>>(await service.GetListAsync(page, search));
-            return View(new StaticPagedList<CategoryVM>(model, model.GetMetaData()));
+            var categories = await service.GetListAsync(page, search);
+            var model = AutoMapper.Mapper.Map<IEnumerable<CategoryVM>>(categories.ToList());
+            return View(new StaticPagedList<CategoryVM>(model, categories.GetMetaData()));
         }
 
         // GET: Categories/Details/5

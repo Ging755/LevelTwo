@@ -186,6 +186,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\AutoMapperProfile.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -285,13 +286,37 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LevelTwo.Common\LevelTwo.Common.csproj">
+      <Project>{f57af16e-ca18-4258-bfa9-71c453827144}</Project>
+      <Name>LevelTwo.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LevelTwo.DAL\LevelTwo.DAL.csproj">
+      <Project>{2d701585-f611-4ed1-a335-c1e1733ac19b}</Project>
+      <Name>LevelTwo.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LevelTwo.Model.Common\LevelTwo.Model.Common.csproj">
       <Project>{8BAEB54A-F175-4D7E-A0BC-57B0AFE94E84}</Project>
       <Name>LevelTwo.Model.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LevelTwo.Model\LevelTwo.Model.csproj">
+      <Project>{4150df90-0c3e-4885-ae96-5d7b36694b70}</Project>
+      <Name>LevelTwo.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LevelTwo.Repository.Common\LevelTwo.Repository.Common.csproj">
+      <Project>{86ff3a4c-a4e4-4464-b25d-453b4bbcefea}</Project>
+      <Name>LevelTwo.Repository.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LevelTwo.Repository\LevelTwo.Repository.csproj">
+      <Project>{970b47d0-37df-4222-855f-b2c3888efc27}</Project>
+      <Name>LevelTwo.Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LevelTwo.Service.Common\LevelTwo.Service.Common.csproj">
       <Project>{ACF4A596-B14D-430D-9855-92922B30CCE8}</Project>
       <Name>LevelTwo.Service.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LevelTwo.Service\LevelTwo.Service.csproj">
+      <Project>{b523c819-cbe3-4280-9737-4b7e4dca546b}</Project>
+      <Name>LevelTwo.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

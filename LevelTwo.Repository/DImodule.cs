@@ -1,5 +1,6 @@
 ﻿using LevelTwo.DAL.Entities;
 using LevelTwo.Repository.Common;
+using LevelTwo.Repository.UOFW;
 using Ninject.Extensions.Factory;
 using Ninject.Modules;
 using System;
@@ -20,7 +21,7 @@ namespace LevelTwo.Repository
             Bind<ICategoryRepository>().To<CategoryRepository>();
             Bind<IItemRepository>().To<ItemRepository>();
             Bind<IOrderRepository>().To<OrderRepository>();
-            Bind<IUnitOfWork>().ToFactory();
+            Bind<IUnitOfWorkFactory>().ToFactory();
         }
     }
 }

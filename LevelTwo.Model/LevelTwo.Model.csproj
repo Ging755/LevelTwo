@@ -46,7 +46,7 @@
   <ItemGroup>
     <Compile Include="Category.cs" />
     <Compile Include="DImodule.cs" />
-    <Compile Include="Items.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
