@@ -18,6 +18,6 @@ namespace LevelTwo.Model
         public string RecipientPhone { get; set; }
         public string OrderReciveTime { get; set; }
         public bool OrderSent { get; set; }
-        public ICollection<IItem> OrderedItems { get; set; }
+        public ICollection<int> OrderedItems { get; set; }
     }
 }

@@ -17,11 +17,6 @@ namespace LevelTwo.DAL.Entities
         public string RecipientPhone { get; set; }
         public string OrderReciveTime { get; set; }
         public bool OrderSent { get; set; }
-        public ICollection<ItemEntity> OrderedItems { get; set; }
-
-        public OrderEntity()
-        {
-            OrderedItems = new HashSet<ItemEntity>();
-        }
+        public ICollection<int> OrderedItems { get; set; }
     }
 }
