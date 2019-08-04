@@ -12,7 +12,7 @@ namespace LevelTwo.Repository.Common
     {
         Task<ICategory> GetAsync(int id);
 
-        IPagedList<ICategory> GetListAsync(int? page, string search);
+        Task<IPagedList<ICategory>> GetListAsync(int? page, string search);
 
         Task AddAsync(ICategory entity);
 

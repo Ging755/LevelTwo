@@ -12,7 +12,7 @@ namespace LevelTwo.Repository.Common
     {
         Task<IOrder> GetAsync(int id);
 
-        IPagedList<IOrder> GetListAsync();
+        Task<IPagedList<IOrder>> GetListAsync();
 
         Task AddAsync(IOrder entity);
 
