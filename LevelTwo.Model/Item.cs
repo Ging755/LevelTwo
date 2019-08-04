@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LevelTwo.Model
 {
-    public class Items : IItem
+    public class Item : IItem
     {
         public int Id { get; set; }
         public string Name { get; set; }

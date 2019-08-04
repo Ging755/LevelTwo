@@ -15,7 +15,7 @@ namespace LevelTwo.DAL.Entities
         public decimal Price { get; set; }
         public bool Discount { get; set; }
 
-        public int CategoryId { get; set; }
-        public CategoryEntity Category { get; set; }
+        public int CategoryEntityId { get; set; }
+        public CategoryEntity CategoryEntity { get; set; }
     }
 }

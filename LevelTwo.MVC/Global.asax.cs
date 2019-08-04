@@ -12,6 +12,11 @@ namespace LevelTwo.MVC
     {
         protected void Application_Start()
         {
+            AutoMapper.Mapper.Initialize(x =>
+            {
+                x.AddProfile<LevelTwo.MVC.App_Start.AutoMapperProfile>();
+                x.AddProfile<LevelTwo.Repository.AutoMapperProfile>();
+            });
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

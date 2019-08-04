@@ -45,6 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=8.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.8.1.1\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
       <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
@@ -57,6 +60,12 @@
     </Reference>
     <Reference Include="Ninject.Web.Mvc, Version=3.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
       <HintPath>..\packages\Ninject.MVC5.3.3.0\lib\net45\Ninject.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -184,6 +193,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -203,6 +213,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -255,6 +266,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Category\CategoriesList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -271,6 +283,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LevelTwo.Model.Common\LevelTwo.Model.Common.csproj">
+      <Project>{8BAEB54A-F175-4D7E-A0BC-57B0AFE94E84}</Project>
+      <Name>LevelTwo.Model.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LevelTwo.Service.Common\LevelTwo.Service.Common.csproj">
+      <Project>{ACF4A596-B14D-430D-9855-92922B30CCE8}</Project>
+      <Name>LevelTwo.Service.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

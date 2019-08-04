@@ -38,15 +38,15 @@ namespace LevelTwo.Repository
             return AutoMapper.Mapper.Map<ICategory>(await repo.GetAsync(id));
         }
 
-        public IPagedList<ICategory> GetListAsync(int? page, string search)
+        public async Task<IPagedList<ICategory>> GetListAsync(int? page, string search)
         {
             var categories = AutoMapper.Mapper.Map<IQueryable<ICategory>>(repo.GetListAsync().AsQueryable());
             if (!string.IsNullOrEmpty(search))
             {
                 categories = categories.Where(x => x.Name.ToUpper() == search.ToUpper()).AsQueryable();
             }
-            var model = categories.OrderBy(x => x.Id).ToPagedList((int)page, 3);
-            return (new StaticPagedList<ICategory>(model, model.GetMetaData()));
+            var categoriespaged = categories.OrderBy(x => x.Id).ToPagedList((int)page, 3);
+            return (categoriespaged);
         }
     }
 }

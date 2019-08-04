@@ -60,6 +60,9 @@ namespace LevelTwo.MVC.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            kernel.Load<LevelTwo.Model.DImodule>();
+            kernel.Load<LevelTwo.Repository.DImodule>();
+            kernel.Load<LevelTwo.Service.DImodule>();
         }        
     }
 }

@@ -12,11 +12,11 @@ namespace LevelTwo.DAL.Entities
         public string Name { get; set; }
         public string Description { get; set; }
 
-        ICollection<ItemEntity> Items { get; set; }
+        ICollection<ItemEntity> ItemEntities { get; set; }
 
         public CategoryEntity()
         {
-            Items = new HashSet<ItemEntity>();
+            ItemEntities = new HashSet<ItemEntity>();
         }
     }
 }
