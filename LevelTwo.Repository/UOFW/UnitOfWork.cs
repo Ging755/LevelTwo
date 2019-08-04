@@ -86,5 +86,10 @@ namespace LevelTwo.Repository.UOFW
 
             return Task.FromResult(1);
         }
+
+        public void Dispose()
+        {
+            DbContext.Dispose();
+        }
     }
 }

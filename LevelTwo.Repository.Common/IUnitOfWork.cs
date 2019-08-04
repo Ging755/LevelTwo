@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LevelTwo.Repository.Common
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
         Task<int> AddAsync<T>(T entity) where T : class;
 
